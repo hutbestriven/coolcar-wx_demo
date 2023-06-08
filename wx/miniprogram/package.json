@@ -1,0 +1,23 @@
+{
+  "name": "miniprogram-ts-less-quickstart",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "./node_modules/typescript/bin/tsc",
+    "tsc": "node ./node_modules/typescript/lib/tsc.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "miniprogram-api-typings": "^3.9.1",
+    "protobufjs": "^6.11.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "camelcase-keys": "^6.2.2",
+    "protobufjs": "^6.11.3"
+  },
+  "main": ".eslintrc.js",
+  "description": ""
+}

@@ -1,0 +1,48 @@
+/* pages/login/loginuser.wxss */
+.avatar-wrapper {
+    padding: 0;
+    width: 56px !important;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .avatar {
+    display: block;
+    width: 56px;
+    height: 56px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .line{
+    width: 100%;
+    margin-top: 20rpx;
+    border-top:1px #989898 solid;
+    opacity: 0.3;
+    }
+
+    .inputname{
+        position: relative;
+        margin: 40rpx 15rpx;
+    }
+  
+    .btn-container{
+        width: 600rpx;
+        margin-left: 75rpx;
+        bottom: 7%;
+        position: absolute;
+        height: 70rpx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: .7;
+       }
+    .button-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }

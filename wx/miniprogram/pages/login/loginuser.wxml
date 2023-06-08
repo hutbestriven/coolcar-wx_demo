@@ -1,0 +1,18 @@
+<!--pages/login/loginuser.wxml-->
+<view data-weui-theme="{{theme}}">
+    <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+      <image class="avatar" src="{{avatarUrl}}"></image>
+    </button> 
+</view>
+<view>
+    <view class="line"></view>
+    <view class="inputname">
+        <input type="nickname" class="weui-input" placeholder="请输入昵称"/>
+    </view>
+    <view class="line"></view>
+</view>
+<view class="button-container">
+    <button class="btn-container bg-grey round" bindtap="submitUserInfo">
+        提交信息
+    </button>
+</view>
